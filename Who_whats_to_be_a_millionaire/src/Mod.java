@@ -21,7 +21,6 @@ public class Mod {
 		if (p.checkAnswer(b, numRoundsPlayed)) {
 			amountEarned = p.earnings[Mod.numRoundsPlayed];
 			Mod.numRoundsPlayed ++;
-			System.out.println(Mod.numRoundsPlayed);
 			return true;
 		}
 		
