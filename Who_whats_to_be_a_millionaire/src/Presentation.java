@@ -29,7 +29,7 @@ public class Presentation extends JFrame{
 	String[] callFriendAns = {"Didn't you take chemistry? The answer is 1", "WW1 started at 1914", "I am not sure but I think it's the ear", 
 	"I don't know. 300 maybe?", "Oh, 1945", "Da Vinci I think", "Diamond", "Who? by the name I think German...", 
 	"It is definitely the Thames", "I don't know but good luck!"}; // Place 0 in answers
-	String[] statAnswer = {"80% Sais it is 1", "55% picked 1914", "40% picked 300", "90% chosed ear", "61% sais 1945", "33% picked Da Vinci", 
+	String[] statAnswer = {"80% Sais it is 1", "55% picked 1914", "90% chosed ear", "40% picked 300", "61% sais 1945", "33% picked Da Vinci", 
 	"100% chose diamond", "50% chose German and 50% chose Italian", "88% picked the Thames", "33% chose blue, 33% chose red and 33% chose yellow"}; // Place 1 in answers
 	
 	//----- Text for labels and buttons ----
@@ -376,24 +376,7 @@ public class Presentation extends JFrame{
 		statistics.addActionListener(l);
 		fiftyFifty.addActionListener(l);
 		fiftyFifty.setBackground(Color.RED);
-	}
-	
-/*	public static void main(String[] args) {
-		Presentation view = new Presentation(null);
-        view.setVisible(true);
-        
-        System.out.println(view.checkAnswer(new JButton ("0"), 0));
-        System.out.println(view.checkAnswer(new JButton ("1"), 0));
-        view.updatePanel(6);
-
-        System.out.println(view.checkAnswer(new JButton ("1"), 6));
-        System.out.println(view.checkAnswer(new JButton ("Diamond"), 6));
-        
-        view.updatePanel(9);
-
-        System.out.println(view.checkAnswer(new JButton ("Blue"), 9));
-        System.out.println(view.checkAnswer(new JButton ("4"), 9));
-	}
-*/	
+	}	
 	
 }
+
